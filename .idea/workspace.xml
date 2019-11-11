@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b052c5cd-59e9-4c62-9336-a051e53da9d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Enity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enity/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enity/MessageBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tool/Rand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servlet" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +93,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="73" />
-    <option name="y" value="47" />
+    <option name="y" value="23" />
     <option name="width" value="1771" />
     <option name="height" value="991" />
   </component>
@@ -107,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,11 +111,15 @@
               <item name="CampusBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="CampusBlog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CampusBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -216,16 +217,20 @@
       <workItem from="1569409844951" duration="70000" />
       <workItem from="1573358154173" duration="753000" />
       <workItem from="1573450757867" duration="1386000" />
+      <workItem from="1573452680537" duration="11000" />
+      <workItem from="1573454812002" duration="7000" />
+      <workItem from="1573461212280" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2209000" />
+    <option name="totallyTimeSpent" value="2471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="47" width="1771" height="991" extended-state="0" />
+    <frame x="73" y="23" width="1771" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27703875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,14 +330,21 @@
     <entry file="file://$PROJECT_DIR$/web/images/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enity/Comment.java">
+    <entry file="file://$PROJECT_DIR$/src/Enity/Diary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enity/Diary.java">
+    <entry file="file://$PROJECT_DIR$/src/Enity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enity/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -346,12 +358,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Servlet">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tool/Rand.java">
       <provider selected="true" editor-type-id="text-editor">
