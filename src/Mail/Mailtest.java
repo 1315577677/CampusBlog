@@ -1,4 +1,41 @@
 package Mail;
+
+import Enity.User;
+
+import java.io.UnsupportedEncodingException;
+
+import java.util.ArrayList;
+
+import java.util.Date;
+
+import java.util.List;
+
+import java.util.Properties;
+
+import javax.activation.DataHandler;
+
+import javax.activation.FileDataSource;
+
+import javax.mail.Address;
+
+import javax.mail.BodyPart;
+
+import javax.mail.Multipart;
+
+import javax.mail.Session;
+
+import javax.mail.Transport;
+
+import javax.mail.internet.InternetAddress;
+
+import javax.mail.internet.MimeBodyPart;
+
+import javax.mail.internet.MimeMessage;
+
+import javax.mail.internet.MimeMultipart;
+
+import javax.mail.internet.MimeUtility;
+
 public class Mailtest {
 
     private final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
@@ -43,3 +80,21 @@ public class Mailtest {
 
 
     }
+    public void setSmtpServer(String smtpServer) {
+
+        this.smtpServer = smtpServer;
+
+    }
+
+    public void setPort(String port) {
+
+        this.port = port;
+
+    }
+
+    public void setUsername(String username) {
+
+        this.username = username;
+
+    }
+
