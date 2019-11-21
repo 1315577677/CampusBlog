@@ -97,4 +97,54 @@ public class Mailtest {
         this.username = username;
 
     }
+   public void setPassword(String password) {
 
+        this.password = password;
+
+    }
+
+    public void setRecipients(List<String> recipients) {
+
+        this.recipients = recipients;
+
+    }
+
+    public void setSubject(String subject) {
+
+        this.subject = subject;
+
+    }
+
+    public void setContent(String content) {
+
+        this.content = content;
+
+    }
+
+    public void setAttachmentNames(List<String> attachmentNames) {
+
+        this.attachmentNames = attachmentNames;
+
+    }
+    /**
+     *
+     * 进行base64加密，防止中文乱码
+     *
+     */
+    public String changeEncode(String str) {
+
+        try {
+
+            str = MimeUtility.encodeText(new String(str.getBytes(), "UTF-8"),
+
+                    "UTF-8", "B"); // "B"代表Base64
+
+        } catch (UnsupportedEncodingException e) {
+
+            e.printStackTrace();
+
+        }
+
+        return str;
+
+    }
